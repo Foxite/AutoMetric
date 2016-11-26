@@ -1,2 +1,2 @@
 # AutoMetric
-Automatically converts U.S. imperial units to Metric units.
+A Firefox addon, which automatically converts U.S. imperial units to Metric units.
