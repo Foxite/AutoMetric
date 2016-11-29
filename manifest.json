@@ -2,12 +2,12 @@
 
   "manifest_version": 2,
   "name": "AutoMetric",
-  "version": "1.0",
+  "version": "1.0.2.1",
 
   "description": "Automatically converts Imperial units to metric.",
 
   "icons": {
-    "48": "border-48.png"
+    "48": "AutoMetric.svg"
   },
 
   "content_scripts": [
@@ -15,5 +15,14 @@
       "matches": ["<all_urls>"],
       "js": ["autometric.js"]
     }
-  ]
+  ],
+  
+  "applications": {
+    "gecko": {
+      "id": "{2f81e496-fe35-4502-a388-04459a149f3a}",
+      "strict_min_version": "42.0",
+      "strict_max_version": "50.*"
+    }
+  }
 }
+
